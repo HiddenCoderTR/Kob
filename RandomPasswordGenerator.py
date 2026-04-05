@@ -6,7 +6,7 @@ digitChrStr = "0123456789"
 alphaChrStr = "ABCDEFGHIJKLMNOQPRSTUWXYZabcdefghijklmnoqprstuwxyz"
 
 # Python'da input küçük harfle yazılır
-passwordType = input("Enter password type (digit, alpha, all): ")
+passwordType = input("Enter password type (digit, alpha, all): ").lower()
 passwordLength = int(input("Enter password Length: "))
 
 password = []
